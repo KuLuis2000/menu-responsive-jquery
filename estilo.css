@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+  --Gris: #f3f3f3;
+  --Verde: #6cb500;
+  --Gris_Menu: #f3f3f3;
+  --arimo: Arimo;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: var(--arimo);
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header figure {
+  width: 200px;
+}
+
+header figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+nav{
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: var(--Verde);
+    font-size: 20px;
+}
+
+#iconomenu {
+  color: var(--Verde);
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: none;
+}
+
+.image_slide{
+    position: relative;
+    height: 520px;
+    width: 100%;
+}
+
+.image_slide img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.frase_image{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.frase_image h1{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+section{
+    text-align: center;
+    margin-top: 40px;
+}
+
+section h1{
+    font-size: 30px;
+}
+
+section h2{
+    color: var(--Verde);
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.contenedores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articulo{
+    width: 380px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--Gris);
+    padding-bottom: 32px;
+    margin-top: 30px;
+}
+
+.vaca{
+    margin: auto;
+    width: 120px;
+}
+
+.leche{
+    margin: auto;
+    width: 100px;
+    margin-bottom: 18px;
+}
+
+.fruta{
+    margin: auto;
+    width: 100px;
+    margin-bottom: 18px;
+}
+
+.articulo figure img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.articulo h2{
+    color: var(--Verde);
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.articulo p{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    background-color: var(--Verde);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer figure{
+    margin: auto;
+    display: flex;
+    width: 240px;
+}
+
+footer figure img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
